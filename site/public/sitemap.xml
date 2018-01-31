@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://dev-rancherhost-01/dir1/b/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/learning-python/classes-in-python/</loc>
+    <lastmod>2017-11-22T03:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/a/</loc>
+    <lastmod>2017-11-22T03:05:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/rancher-transit-vault/</loc>
+    <lastmod>2017-06-22T23:31:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/power-of-regular-expressions/</loc>
+    <lastmod>2017-06-20T23:31:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/learning-python/learning-python/</loc>
+    <lastmod>2017-06-16T07:42:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/how-to-change-the-docker-repo-at-iag/</loc>
+    <lastmod>2017-06-15T01:24:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/the-use-of-ansible/</loc>
+    <lastmod>2017-06-14T06:41:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/redhat-internal-repo/</loc>
+    <lastmod>2017-06-14T02:00:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/content/post/build-obi/</loc>
+    <lastmod>2017-06-13T10:50:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/getting-started-with-rancher/</loc>
+    <lastmod>2017-06-07T02:00:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/using-jodin-and-heimdal-on-mac-osx/</loc>
+    <lastmod>2017-06-06T12:18:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/postgres-backup-and-restore/</loc>
+    <lastmod>2017-05-31T12:41:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/installing-syncthing/</loc>
+    <lastmod>2017-05-30T10:59:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/dream-infra-as-a-code/</loc>
+    <lastmod>2017-05-27T23:31:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/building-a-hugo-container/</loc>
+    <lastmod>2017-05-25T16:31:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/starting-with-docker/</loc>
+    <lastmod>2017-05-25T16:26:25+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/welcome/</loc>
+    <lastmod>2017-05-25T16:03:45+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/copper-selenium-grid/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/copper_admin_stuff/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/categories/android/</loc>
+    <lastmod>2017-06-06T12:18:12+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/categories/</loc>
+    <lastmod>2017-06-06T12:18:12+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/content/</loc>
+    <lastmod>2017-06-13T10:50:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/categories/development/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/tags/development/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/dir1/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/categories/golang/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/tags/golang/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/terraform/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/tags/odin/</loc>
+    <lastmod>2017-06-06T12:18:12+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/categories/phone/</loc>
+    <lastmod>2017-06-06T12:18:12+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/</loc>
+    <lastmod>2017-11-22T03:05:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/categories/python/</loc>
+    <lastmod>2017-11-22T03:05:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/tags/python/</loc>
+    <lastmod>2017-11-22T03:05:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/tags/samsung-bricked/</loc>
+    <lastmod>2017-06-06T12:18:12+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/tags/</loc>
+    <lastmod>2017-11-22T03:08:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev-rancherhost-01/post/using-dns-as-a-docker-container/</loc>
+  </url>
+  
+</urlset>

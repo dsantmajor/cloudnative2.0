@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Material Docs</title>
+    <link>http://dev-rancherhost-01/categories/development/</link>
+    <description>Recent content in Development on Material Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Wed, 22 Nov 2017 03:08:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://dev-rancherhost-01/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>b</title>
+      <link>http://dev-rancherhost-01/dir1/b/</link>
+      <pubDate>Wed, 22 Nov 2017 03:08:48 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/dir1/b/</guid>
+      <description>This is dir1/b.md</description>
+    </item>
+    
+    <item>
+      <title>Classes in Python</title>
+      <link>http://dev-rancherhost-01/post/learning-python/classes-in-python/</link>
+      <pubDate>Wed, 22 Nov 2017 03:05:51 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/learning-python/classes-in-python/</guid>
+      <description>Classes in Python Why use Classes ? When you want to create custom type objects thats where classes come in .
+ Classes help define the structure and behaviour of objects. An object&amp;rsquo;s class controls its initialisation, and which attributes and methods are available to that object. Type of an object is fixed throughout its life time.  How to define a Class ?  By convention class names use CamelCase class keyword followed by the class-name empty blocks are not allowed within a class definition.</description>
+    </item>
+    
+    <item>
+      <title>a</title>
+      <link>http://dev-rancherhost-01/a/</link>
+      <pubDate>Wed, 22 Nov 2017 03:05:51 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/a/</guid>
+      <description>MacDown Hello there! I’m MacDown, the open source Markdown editor for OS X.
+Let me introduce myself.
+Markdown and I Markdown is a plain text formatting syntax created by John Gruber, aiming to provide a easy-to-read and feasible markup. The original Markdown syntax specification can be found here.
+MacDown is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.</description>
+    </item>
+    
+    <item>
+      <title>Rancher Transit Vault</title>
+      <link>http://dev-rancherhost-01/post/rancher-transit-vault/</link>
+      <pubDate>Thu, 22 Jun 2017 23:31:05 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/rancher-transit-vault/</guid>
+      <description>Table of Contents  Seal Unseal  Seal : What is Sealed State ? In this state Vault knows where and how to access physical storage ,but doesnt know how to dycrypt any of it.
+Unsealing : What is Unsealing? Unsealing is the process of reconstructing (constructing) the master key - without unsealing no operations are possible within the vault ,except unsealing and checking unseal status - the master key is neccessary for - reading the dycrption key - to dycrypt data - and allowing access to the Vault - Shamirs Secret Sharing algorithm is used</description>
+    </item>
+    
+    <item>
+      <title>power of regular expressions</title>
+      <link>http://dev-rancherhost-01/post/power-of-regular-expressions/</link>
+      <pubDate>Tue, 20 Jun 2017 23:31:05 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/power-of-regular-expressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning python</title>
+      <link>http://dev-rancherhost-01/post/learning-python/learning-python/</link>
+      <pubDate>Fri, 16 Jun 2017 07:42:20 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/learning-python/learning-python/</guid>
+      <description>Table of Contents  Strings Bytes lists Dict Function arguments and return values Value equlity vs identity  String : Immutable sequences of unicode strings
+Bytes : Immutable sequences of bytes ,raw binary data ,bytes constructor
+ Indexing spliting  How to use
+ var = b&amp;rsquo;some bytes&amp;rsquo; var = b &amp;ldquo;some bytes&amp;rdquo;  List:  mutuable sequence of objects [a, b, c, d] heterogenous emty list b= [] b.</description>
+    </item>
+    
+    <item>
+      <title>How to change the Docker Repo at IAG</title>
+      <link>http://dev-rancherhost-01/post/how-to-change-the-docker-repo-at-iag/</link>
+      <pubDate>Thu, 15 Jun 2017 01:24:02 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/how-to-change-the-docker-repo-at-iag/</guid>
+      <description>How to change Docker Repo from art2.auiag.corp to swrepos.auiag.corp  Checkout the Repo where you want to change the Docker Repo entries You can find art2.auiag.corp and replace with swrepos.auiag.corp We will take Wilma as an example There are 4 locations where the files change   application.conf Dockerfile rancher-dev.conf rancher-production.conf   Closer look at application.conf   export DOCKER_IMAGE_BASE=&amp;quot;art2.auiag.corp/nodeapp:0.0.17&amp;quot; export DOCKER_IMAGE_NAME=&amp;quot;art2.auiag.corp/wilma&amp;quot; export DOCKER_IMAGE_BASE=&amp;quot;swrepos.auiag.corp/carbon/nodeapp:0.1.2&amp;quot; export DOCKER_IMAGE_NAME=&amp;quot;swrepos.auiag.corp/dce/wilma&amp;quot;   Closer look at Dockerfile  FROM art2.</description>
+    </item>
+    
+    <item>
+      <title>The use of ansible</title>
+      <link>http://dev-rancherhost-01/post/the-use-of-ansible/</link>
+      <pubDate>Wed, 14 Jun 2017 06:41:13 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/the-use-of-ansible/</guid>
+      <description> Table of Contents  Inventory test  </description>
+    </item>
+    
+    <item>
+      <title>Setting up Redhat internal repo IAG</title>
+      <link>http://dev-rancherhost-01/post/redhat-internal-repo/</link>
+      <pubDate>Wed, 14 Jun 2017 02:00:05 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/redhat-internal-repo/</guid>
+      <description>Setting up the Redhat internal repo for yumupdates Table of Contents  Create the file internalrepo.repo at /etc/yum.repos.d/ if it doest exist Contents of the file Run Commands
+ /etc/yum.repos.d/internalrepo.repo vi /etc/yum.repos.d/internalrepo.repo
+ Update this file with the below content   [rhel-x86_64-server-7] name=Red Hat Enterprise Linux 7 - $basearch baseurl=http://ulpmir001.auiag.corp/rhel-71-x86_64-repo/rhel-x86_64-server-7/ enabled=1 gpgcheck=1 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release proxy=_none_ priority=1 [rhel-x86_64-common-7] name=Red Hat Enterprise Linux 7 Common - $basearch baseurl=http://ulpmir001.auiag.corp/rhel-71-x86_64-repo/rhel-x86_64-server-rh-common-7/ enabled=1 gpgcheck=1 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release proxy=_none_ priority=1 [rhel-x86_64-extras-7] name=Red Hat Enterprise Linux 7 Extras - $basearch baseurl=http://ulpmir001.</description>
+    </item>
+    
+    <item>
+      <title>Build OBI Client</title>
+      <link>http://dev-rancherhost-01/content/post/build-obi/</link>
+      <pubDate>Tue, 13 Jun 2017 10:50:55 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/content/post/build-obi/</guid>
+      <description>Note on how OBI is currently built Table of Contents  CI Server Details Source Code Repository Artifact Store How it All works Who has Access Gotchas  CI Server Details
+Currently Bamboo is the CI server that builds the OBi Client ,the design principle is Build once deploy many
+BUILD-OBi Client
+ Source Code Checkout checkout - obi-client Repository: obi-client ${bamboo.checkout.dir}  Script Inline Working sub dirrectory   echo echo echo &amp;quot; ****************************************** &amp;quot; echo &amp;quot; * * &amp;quot; echo &amp;quot; * DELETING node_modules.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Rancher</title>
+      <link>http://dev-rancherhost-01/post/getting-started-with-rancher/</link>
+      <pubDate>Wed, 07 Jun 2017 02:00:05 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/getting-started-with-rancher/</guid>
+      <description>Rancher Concepts Table of Contents  Access Control Environments Services 4. Link : Read this for Crossreference
+   Registry       -------------ENVIRONMENT --------------- | | | ----------HOST(s)------------ | | | | | | | --------STACK(s)------ | | | | | ---Container(s)-- | | | | | | | | | | |   Access Control - Rancher UI access control : Admin --&amp;gt; Accounts --&amp;gt; Add Account - Rancher Environment control : Manage Environment --&amp;gt;Add Environment--&amp;gt; Access Control  Environments What is an Environment ?</description>
+    </item>
+    
+    <item>
+      <title>Postgres backup and restore</title>
+      <link>http://dev-rancherhost-01/post/postgres-backup-and-restore/</link>
+      <pubDate>Wed, 31 May 2017 12:41:12 +1000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/postgres-backup-and-restore/</guid>
+      <description> Home
+Installation on Mac </description>
+    </item>
+    
+    <item>
+      <title>Installing Syncthing</title>
+      <link>http://dev-rancherhost-01/post/installing-syncthing/</link>
+      <pubDate>Tue, 30 May 2017 10:59:24 +1000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/installing-syncthing/</guid>
+      <description>Home
+Installation on Mac I installed Syncthing as a docker container on mac
+$ docker pull syncthing/syncthing $ mkdir ~/code/syncthing $ cd ~/code/syncthing $ mkdir build $ cd build $ touch Docker-compose.yml  My Docker-compose file looks like below This is what was I did
+version: &#39;2&#39; services: syncthing: image: syncthing/syncthing:latest ports: - &amp;quot;8384:8384&amp;quot; - &amp;quot;22000:22000&amp;quot; volumes: - &amp;quot;./st-cfg:/var/syncthing/config&amp;quot; - &amp;quot;./st-sync:/var/syncthing/Sync&amp;quot; restart: unless-stopped  My Folder Structure
+. └── build ├── docker-compose.</description>
+    </item>
+    
+    <item>
+      <title>Dream Infra as a code</title>
+      <link>http://dev-rancherhost-01/post/dream-infra-as-a-code/</link>
+      <pubDate>Sat, 27 May 2017 23:31:24 +1000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/dream-infra-as-a-code/</guid>
+      <description>The Vision  I would love to build an environment that is agnostic enough to be deployed anywhere with zero modifications . An environment that is scalable on demand . Resilient to attacks ,build with highest standards of security. Flexible enough to adapt to change.
+Agnostic What I mean by agnostic ? It means that i can spin a minimal viable stack on a laptop ,a physical infrastructure ,a cloud provider like AWS ,Azure ,Google Cloud Platform.</description>
+    </item>
+    
+    <item>
+      <title>Building a Hugo container</title>
+      <link>http://dev-rancherhost-01/post/building-a-hugo-container/</link>
+      <pubDate>Thu, 25 May 2017 16:31:24 +1000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/building-a-hugo-container/</guid>
+      <description>Home
+Installation on Mac I installed Hugo on mac using brew #! $ brew update $ brew install hugo  Setup a Hugo Site under 2 mins I followed the tutorial on the Hugo site
+$ cd ~/site $ hugo new site . $ hugo new post/welcome.md $ git clone https://github.com/SenjinDarashiva/hugo-uno.git themes/hugo-uno $ hugo server -w $ hugo new post/&#39;Starting with docker&#39;.md $ hugo new post/&#39;Building a Hugo container&#39;.md  The above created few folder structuer as below</description>
+    </item>
+    
+    <item>
+      <title>Starting with docker</title>
+      <link>http://dev-rancherhost-01/post/starting-with-docker/</link>
+      <pubDate>Thu, 25 May 2017 16:26:25 +1000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/starting-with-docker/</guid>
+      <description>Home
+Important Links  some This is Blue italic. text
+This is Red Bold. 
+Docker Networking 1.1 Networks and Scopes What is a Network in the docker world ?
+Broadly speaking a Network is a private network ,can also regard it as a domain that allows containers to connect and communicate with each other
+If you connect a container to a network ,you give that container access to all the containers in that network.</description>
+    </item>
+    
+    <item>
+      <title>How to use Terraformo</title>
+      <link>http://dev-rancherhost-01/post/terraform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/terraform/</guid>
+      <description>Terraform 101 1. Providers : A provider ( example AWS) is responsible for creating and managing resources
+###### Provider Block Provider Block is used to configure the named provider.
+2. Resources : Resource can be a physical component like a VPC ,Ec2 instances or Virutal like hiroko application. ###### Resource Block Resource Block is used to define the resources within the infrastructure.
+Resource Block has two strings the resource type and resource name and is defined before opening the string.</description>
+    </item>
+    
+    <item>
+      <title>Using DNS as a docker container</title>
+      <link>http://dev-rancherhost-01/post/using-dns-as-a-docker-container/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/using-dns-as-a-docker-container/</guid>
+      <description> Home
+Installation on Mac I followed this blog post by Sameer
+LINK : deploying-a-dns-server-using-docker
+As shown below, I make use of a docker-compose file located under ~/code/docker/dns/
+version: &#39;2&#39; services: bind: restart: always image: sameersbn/bind:9.9.5-20170129 ports: - &amp;quot;53:53/udp&amp;quot; - &amp;quot;53:53/tcp&amp;quot; - &amp;quot;10000:10000/tcp&amp;quot; volumes: - /srv/docker/bind:/data  To spin up the container i run
+$ docker-compose up -d  </description>
+    </item>
+    
+  </channel>
+</rss>

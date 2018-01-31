@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Build OBI Client - Material Docs</title>
+    <meta name="generator" content="Hugo 0.30.2" />
+
+    
+    <meta name="description" content="A material design theme for documentations.">
+    
+    <link rel="canonical" href="http://dev-rancherhost-01/content/post/build-obi/">
+    
+    <meta name="author" content="Digitalcraftsman">
+    
+
+    <meta property="og:url" content="http://dev-rancherhost-01/content/post/build-obi/">
+    <meta property="og:title" content="Material Docs">
+    <meta property="og:image" content="http://dev-rancherhost-01/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="Material Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://dev-rancherhost-01/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://dev-rancherhost-01/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('http://dev-rancherhost-01/fonts/icon.eot');
+        src: url('http://dev-rancherhost-01/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('http://dev-rancherhost-01/fonts/icon.woff')
+               format('woff'),
+             url('http://dev-rancherhost-01/fonts/icon.ttf')
+               format('truetype'),
+             url('http://dev-rancherhost-01/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://dev-rancherhost-01/stylesheets/application.css">
+    <link rel="stylesheet" href="http://dev-rancherhost-01/stylesheets/temporary.css">
+    <link rel="stylesheet" href="http://dev-rancherhost-01/stylesheets/palettes.css">
+    <link rel="stylesheet" href="http://dev-rancherhost-01/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="http://dev-rancherhost-01/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-red palette-accent-teal">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Build OBI Client
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/digitalcraftsman" title="@digitalcraftsman on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/digitalcraftsman/hugo-material-docs" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="http://dev-rancherhost-01images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Material Docs <span class="version">1.0.0</span></strong>
+        
+          <br>
+          digitalcraftsman/hugo-material-docs
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/digitalcraftsman/hugo-material-docs/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/digitalcraftsman/hugo-material-docs/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Getting started" href="http://dev-rancherhost-01/getting-started/">
+	
+	Getting started
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Adding content" href="http://dev-rancherhost-01/adding-content/">
+	
+	Adding content
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Roadmap" href="http://dev-rancherhost-01/roadmap/">
+	
+	Roadmap
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="License" href="http://dev-rancherhost-01/license/">
+	
+	License
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Build OBI Client" href="http://dev-rancherhost-01/content/post/build-obi/">
+	
+	Build OBI Client
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Building a Hugo container" href="http://dev-rancherhost-01/post/building-a-hugo-container/">
+	
+	Building a Hugo container
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Classes in Python" href="http://dev-rancherhost-01/post/learning-python/classes-in-python/">
+	
+	Classes in Python
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Dream Infra as a code" href="http://dev-rancherhost-01/post/dream-infra-as-a-code/">
+	
+	Dream Infra as a code
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Getting started with Rancher" href="http://dev-rancherhost-01/post/getting-started-with-rancher/">
+	
+	Getting started with Rancher
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="How to change the Docker Repo at IAG" href="http://dev-rancherhost-01/post/how-to-change-the-docker-repo-at-iag/">
+	
+	How to change the Docker Repo at IAG
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="How to use Terraformo" href="http://dev-rancherhost-01/post/terraform/">
+	
+	How to use Terraformo
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Installing Syncthing" href="http://dev-rancherhost-01/post/installing-syncthing/">
+	
+	Installing Syncthing
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="JOdin and Heimdal on MacOsX" href="http://dev-rancherhost-01/post/using-jodin-and-heimdal-on-mac-osx/">
+	
+	JOdin and Heimdal on MacOsX
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Learning python" href="http://dev-rancherhost-01/post/learning-python/learning-python/">
+	
+	Learning python
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Material" href="http://dev-rancherhost-01/">
+	
+	Material
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Postgres backup and restore" href="http://dev-rancherhost-01/post/postgres-backup-and-restore/">
+	
+	Postgres backup and restore
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Rancher Transit Vault" href="http://dev-rancherhost-01/post/rancher-transit-vault/">
+	
+	Rancher Transit Vault
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Setting up Redhat internal repo IAG" href="http://dev-rancherhost-01/post/redhat-internal-repo/">
+	
+	Setting up Redhat internal repo IAG
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Starting with docker" href="http://dev-rancherhost-01/post/starting-with-docker/">
+	
+	Starting with docker
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="The use of ansible" href="http://dev-rancherhost-01/post/the-use-of-ansible/">
+	
+	The use of ansible
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Using DNS as a docker container" href="http://dev-rancherhost-01/post/using-dns-as-a-docker-container/">
+	
+	Using DNS as a docker container
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="a" href="http://dev-rancherhost-01/a/">
+	
+	a
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="b" href="http://dev-rancherhost-01/dir1/b/">
+	
+	b
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="power of regular expressions" href="http://dev-rancherhost-01/post/power-of-regular-expressions/">
+	
+	power of regular expressions
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/digitalcraftsman" target="_blank" title="@digitalcraftsman on GitHub">
+              @digitalcraftsman on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:hello@email.com" title="Email of hello@email.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Build OBI Client </h1>
+
+			
+
+<h4 id="note-on-how-obi-is-currently-built"><strong>Note on how OBI is currently built</strong></h4>
+
+<h4 id="table-of-contents"><strong>Table of Contents</strong></h4>
+
+<ol>
+<li>CI Server Details</li>
+<li>Source Code Repository</li>
+<li>Artifact Store</li>
+<li>How it All works</li>
+<li>Who has Access</li>
+<li>Gotchas</li>
+</ol>
+
+<p><strong>CI Server Details</strong></p>
+
+<p>Currently Bamboo is the CI server that builds the OBi Client ,the design principle is Build once deploy many</p>
+
+<p><a href="https://bamboo.iag.com.au/bamboo1/build/admin/edit/editBuildTasks.action?buildKey=COPPEROBI-BUILDOBICLIENT-JOB1">BUILD-OBi Client</a></p>
+
+<ol>
+<li>Source Code Checkout
+<code>checkout - obi-client
+Repository: obi-client
+${bamboo.checkout.dir}
+</code></li>
+<li>Script  <code>Inline</code> <code>Working sub dirrectory</code></li>
+</ol>
+
+<pre><code>      echo
+      echo
+      echo &quot; ****************************************** &quot;
+      echo &quot; *                                        * &quot;
+      echo &quot; * DELETING node_modules...               * &quot;
+      echo &quot; *                                        * &quot;
+      echo
+
+      rm -rf node_modules
+
+      echo
+      echo &quot; * DONE.                                  * &quot;
+      echo &quot; *                                        * &quot;
+      echo &quot; ****************************************** &quot;
+      echo
+
+</code></pre>
+
+<ol>
+<li>Command</li>
+</ol>
+
+<pre><code>     npm - run bamboo:installSemantic
+     NpmCommand
+     run bamboo:installSemantic
+
+</code></pre>
+
+<ol>
+<li>Command</li>
+</ol>
+
+<pre><code>     npm - run bamboo:prebuild
+     NpmCommand
+     run bamboo:prebuild
+
+</code></pre>
+
+<ol>
+<li>Command</li>
+</ol>
+
+<pre><code>     npm - run bamboo:build
+     NpmCommand
+     run bamboo:build
+
+</code></pre>
+
+<ol>
+<li>Script</li>
+<li>Script</li>
+<li>Source Code Checkout</li>
+</ol>
+
+<pre><code>     checkout - docker-rancher-utils
+     Repository: docker-rancher-utils
+     No Specific checkout Dir
+</code></pre>
+
+<ol>
+<li>Script
+<code>script - copy docker-build to projects docker folder</code></li>
+</ol>
+
+<pre><code>      echo &quot; &quot;
+      echo &quot; ************************************************************************ &quot;
+      echo &quot; ***                                                                  *** &quot;
+      echo &quot; *** Copying docker-build scripts to ${bamboo.checkout.dir}/docker &quot;
+      echo &quot; ***                                                                  *** &quot;
+
+      cp -r docker-build/* ${bamboo.checkout.dir}/docker
+
+      echo &quot; ***                                                                  *** &quot;
+      echo &quot; *** Done.                                                            *** &quot;
+      echo &quot; ***                                                                  *** &quot;
+      echo &quot; ************************************************************************ &quot;
+      echo &quot; &quot;
+
+
+</code></pre>
+
+<ol>
+<li>Script</li>
+</ol>
+
+<pre><code>      script - process releas
+
+      File
+
+      Script file: process-hash-release.sh
+
+      Argument: &quot;${bamboo.planRepository.repositoryUrl}&quot; &quot;${bamboo.planRepository.branch}&quot;
+
+      Working sub Dir: ${bamboo.checkout.dir}/docker
+
+</code></pre>
+
+<ol>
+<li>Script</li>
+<li>Inject Bamboo Variables</li>
+</ol>
+
+<pre><code>inject - set release.version value
+
+path to properties file:
+${bamboo.checkout.dir}/docker/release.properties
+
+Namespace:
+release
+
+Scope of the variables
+Result
+
+</code></pre>
+
+<ol>
+<li>Script</li>
+</ol>
+
+<pre><code>script - slack-ping.pl
+Inline
+perl slack-ping.pl
+
+</code></pre>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2018 Released under the MIT license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="http://dev-rancherhost-01/post/redhat-internal-repo/" title="Setting up Redhat internal repo IAG">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Setting up Redhat internal repo IAG
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="http://dev-rancherhost-01/post/getting-started-with-rancher/" title="Getting started with Rancher">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Getting started with Rancher
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'http:\/\/dev-rancherhost-01';
+      var repo_id  = 'digitalcraftsman\/hugo-material-docs';
+    
+    </script>
+
+    <script src="http://dev-rancherhost-01/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

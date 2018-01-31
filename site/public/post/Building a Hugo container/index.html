@@ -1,0 +1,193 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Building a Hugo container &middot; Don San Blog </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://example.org//css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://example.org//css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Don San Blog" />
+    
+    <script src="http://example.org//js/jquery.min.js"></script>
+    <script src="http://example.org//js/main.min.js">
+    </script>
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        " >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://example.org//"  title="link to homepage for Don San Blog">Don San Blog</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a>  </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="navigation">
+                            <li class="navigation__item"><a href="http://example.org/#blog" title="link to Don San Blog blog" class="blog-button">Blog</a> </li></br>
+                            
+                            
+                       </ul>
+                    </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation">    </br>    </ul>
+</nav>
+ </div>
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url()">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://example.org//"  title="link to homepage for Don San Blog">Don San Blog</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a>  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                                <li class="navigation__item"><a href="http://example.org//#blog" title="link to Don San Blog blog" class="blog-button">Blog</a> </li></br>
+                                
+                                
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation">    </br>    </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post">
+          <h1>Building a Hugo container</h1>
+          <span class="post-date">Thu, May 25, 2017</span>
+          
+
+<p><a href="http://localhost:1313/">Home</a></p>
+
+<h2 id="installation-on-mac">Installation on Mac</h2>
+
+<p>I installed Hugo on mac using brew
+<!-- ```javascript
+brew update
+brew install hugo
+```bash --></p>
+
+<pre><code class="language-bash">#!
+$ brew update
+$ brew install hugo
+</code></pre>
+
+<h2 id="setup-a-hugo-site-under-2-mins">Setup a Hugo Site under 2 mins</h2>
+
+<p>I followed the tutorial on the Hugo site</p>
+
+<pre><code class="language-bash">
+$ cd ~/site
+$ hugo new site .
+$ hugo new post/welcome.md
+$ git clone https://github.com/SenjinDarashiva/hugo-uno.git themes/hugo-uno
+$ hugo server -w
+$ hugo new post/'Starting with docker'.md
+$ hugo new post/'Building a Hugo container'.md
+
+</code></pre>
+
+<p>The above created few folder structuer as below</p>
+
+<pre><code class="language-bash">
+.
+├── archetypes
+├── config.toml
+├── content
+│   └── post
+├── data
+├── layouts
+├── static
+└── themes
+    ├── hugo-theme-docdock
+    └── hugo-uno
+</code></pre>
+
+<h2 id="creating-a-hugo-docker-image">Creating a hugo docker image</h2>
+
+<p>I chose to use apline and few apk commands</p>
+
+<p><strong>Sites used to build the docker-compose</strong></p>
+
+<ul>
+<li><a href="https://docs.docker.com/compose/compose-file/#build" title="BUILD">Docker-compose</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" title="Cheat Sheet">MarkDown Cheat Sheet</a></li>
+<li><a href="https://github.com/jojomi/docker-hugo">Jojo Jims references </a></li>
+<li><a href="https://hub.docker.com/r/publysher/hugo/~/dockerfile/"> Referenced publyshers dockerfile </a></li>
+<li><a href="https://docs.docker.com/compose/compose-file/#build">https://docs.docker.com/compose/compose-file/#build</a></li>
+</ul>
+
+<h2 id="todo">TODO</h2>
+
+<ul>
+<li>externalise ENV paramaters</li>
+<li>introduce NGNIX reverse proxy <a href="https://github.com/jwilder/nginx-proxy">Jason Wilder&rsquo;s Repo </a></li>
+<li><a href="http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/">automated-nginx-reverse-proxy-for-docker</a></li>
+</ul>
+
+        </div>
+        <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Building%20a%20Hugo%20container-http%3a%2f%2fexample.org%2fpost%2fBuilding%2520a%2520Hugo%2520container%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fexample.org%2fpost%2fBuilding%2520a%2520Hugo%2520container%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fexample.org%2fpost%2fBuilding%2520a%2520Hugo%2520container%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fexample.org%2fpost%2fBuilding%2520a%2520Hugo%2520container%2f&title=Building%20a%20Hugo%20container" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fexample.org%2fpost%2fBuilding%2520a%2520Hugo%2520container%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fexample.org%2fpost%2fBuilding%2520a%2520Hugo%2520container%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+        
+
+
+
+      </div>
+    </div>
+
+  </body>
+  
+</html>

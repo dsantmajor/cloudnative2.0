@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Material Docs</title>
+    <link>http://dev-rancherhost-01/categories/android/</link>
+    <description>Recent content in Android on Material Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 06 Jun 2017 12:18:12 +1000</lastBuildDate>
+    
+	<atom:link href="http://dev-rancherhost-01/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JOdin and Heimdal on MacOsX</title>
+      <link>http://dev-rancherhost-01/post/using-jodin-and-heimdal-on-mac-osx/</link>
+      <pubDate>Tue, 06 Jun 2017 12:18:12 +1000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/post/using-jodin-and-heimdal-on-mac-osx/</guid>
+      <description>Home
+Installation on Mac You know that feeling ,when you tinker with your phone , root it ,install new roms and try out new recovery methods. and then the moment of truth &amp;hellip;you restart the phone and its stuck at the dreaded
+Downloading &amp;hellip;Do not turn off target!! 
+You try the usual key combinations
+VOLUME DOWN + HOME + POWER. 
+All at the same time ,wait for a few seconds and &amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

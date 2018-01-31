@@ -1,0 +1,213 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "http://www.cloudnnative.com/"
+languageCode = "en-AU"
+title = "CloudNative"
+
+# Metadata
+[params]
+  author = "dsantmajor"
+  description = "You are being automated"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Cloud 2.0 - distributed and specialised"
+  description = "Create awesome things for better web"
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Marketing"
+    subtitle = "This is a demo site."
+    description = "<p>This is a demo site. All things CloudNative, Devops, Automation, Infra as code.</p><ul class='checked'><li>Cloud Assesment</li><li>Hybrid Cloud</li><li>Traditional Architecture</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Resources"
+    subtitle = "The world is a container."
+    description = "<p>Container and the Cloud. This is a demo site.</p><ul class='checked'><li>Containers</li><li>CloudNative</li><li>Digital Transformation</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Strategy"
+    subtitle = "Digital Transformation. Your business digitized."
+    description = "<p>Keep track of everything automatically, This is a demo site!</p><ul class='checked'><li>Open source tools</li><li>Terraform</li><li>Docker</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/watch?v=zi0OaLMWYRA"
+  title = "Our Services"
+  description = "Digital Transformation. You focus on your business,while our automation brings your products to the market at speed."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "CloudNative"
+    description = "All things CloudNative, Devops, Automation, Infra as code."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Cloud Assesment"
+    description = "Portability on steroids."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Container and the Cloud"
+    description = "Run your business at speed and with accuracy."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Copyrighting"
+    description = "Feel free to use all of this content."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Speed to Market"
+    description = "Speed to market.Get your products in the hands of your users, fast."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Customer Support"
+    description = "With you on this journey."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Devops vs Agile"
+    subtitle = "DevOps"
+    img = "images/devops-to-agile-infographics.png"
+
+  [[params.work.item]]
+    title = "Cloud Native Apps"
+    subtitle = "Cloud Apps"
+    img = "images/Cloud_Native_Apps.png"
+
+  [[params.work.item]]
+    title = "Docker vs VM"
+    subtitle = "Docker containers"
+    img = "images/docker-vm-container.png"
+
+  [[params.work.item]]
+    title = "Infra as Code"
+    subtitle = "Terraform"
+    img = "images/terraform.jpg"
+
+  [[params.work.item]]
+    title = "Docker Engine"
+    subtitle = "Docker"
+    img = "images/engine-components-flow.png"
+
+  [[params.work.item]]
+    title = "DevOps Culture"
+    subtitle = "Culture"
+    img = "images/ingraphics-devops-to-agile.png"
+
+  [[params.work.item]]
+    title = "Collaboration at work"
+    subtitle = "Github"
+    img = "images/github-mark.png"
+
+  [[params.work.item]]
+    title = "CI/CD Tools"
+    subtitle = "Jenkins"
+    img = "images/docker-jenkins.png"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "This is just temporary site for demonstration."
+
+  [[params.team.item]]
+    name = "Presenter Numero uno"
+    position = "Chief legend"
+    description = "Chief legend."
+    img = "images/presenter.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Demo God"
+    position = "Chief of Demos"
+    description = "Is your current presenter a cloudnative enthusiast."
+    img = "images/livedemo.png"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "Marketing Lead"
+    position = "The talker"
+    description = "Gets us business."
+    img = "images/marketer.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "This is a demo contact."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2018 This is a demo site. All Rights Reserved. <br> Designed by <a href='http://www.cloudnnative.com/' target='_blank'>cloudnnative</a> Demo Images: <a href='http://www.cloudnnative.com/' target='_blank'>CloudNative</a><br>Demo by <a href='https://github.com/dsantmajor/' target='_blank'>dsantmajor</a></small></p>"
+  github = "https://github.com/dsantmajor/"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"

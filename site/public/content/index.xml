@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on Material Docs</title>
+    <link>http://dev-rancherhost-01/content/</link>
+    <description>Recent content in Contents on Material Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 13 Jun 2017 10:50:55 +0000</lastBuildDate>
+    
+	<atom:link href="http://dev-rancherhost-01/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build OBI Client</title>
+      <link>http://dev-rancherhost-01/content/post/build-obi/</link>
+      <pubDate>Tue, 13 Jun 2017 10:50:55 +0000</pubDate>
+      
+      <guid>http://dev-rancherhost-01/content/post/build-obi/</guid>
+      <description>Note on how OBI is currently built Table of Contents  CI Server Details Source Code Repository Artifact Store How it All works Who has Access Gotchas  CI Server Details
+Currently Bamboo is the CI server that builds the OBi Client ,the design principle is Build once deploy many
+BUILD-OBi Client
+ Source Code Checkout checkout - obi-client Repository: obi-client ${bamboo.checkout.dir}  Script Inline Working sub dirrectory   echo echo echo &amp;quot; ****************************************** &amp;quot; echo &amp;quot; * * &amp;quot; echo &amp;quot; * DELETING node_modules.</description>
+    </item>
+    
+  </channel>
+</rss>
